@@ -19,8 +19,8 @@ function assertEquals(actual, esperado) {
 }
 
 // Pruebas
-test("Suma 2 + 2 = 4", () => {
-  assertEquals(suma(2, 2), 4);
+test("Suma 3 + 2 = 5", () => {
+  assertEquals(suma(3, 2), 5);
 });
 
 
