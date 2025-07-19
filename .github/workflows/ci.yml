@@ -2,9 +2,9 @@ name: CI Pruebas JS # Nombre del workflow
 
 on: # Define los eventos que activan el workflow
   push: 
-    branches: [ main ] 
+    branches: [ master ] 
   pull_request: # Cuando hay un pull request
-    branches: [ main ] 
+    branches: [ master ] 
 
 jobs: # Definición de los trabajos a ejecutar
   build: 
