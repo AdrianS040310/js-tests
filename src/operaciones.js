@@ -6,7 +6,7 @@ function suma(a, b) {
 }
 
 function dividir(a, b) {
-  if (b === 0) return "Error";
+  if (b === 0) return "Error-";
   return a / b;
 }
 
