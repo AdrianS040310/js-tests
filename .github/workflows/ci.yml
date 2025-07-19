@@ -23,4 +23,4 @@ jobs: # Definición de los trabajos a ejecutar
         run: npm install # Ejecuta el comando para instalar dependencias
 
       - name: Ejecutar pruebas
-        run: npm test # Ejecuta el comando para correr las pruebas
+        run: npm run test # Ejecuta el comando para correr las pruebas
